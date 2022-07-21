@@ -1,0 +1,254 @@
+
+qubvl01@ub15.uni-tuebingen.de
+
+subl . (zapusk sublime text editor)
+
+root@mb038:/usr/local/vufind/import# git status
+
+root@mb038:ean+++++s/bin# ./netbeans
+
+
+root@mb038:/usr/local/vufind# which netbeans
+/usr/bin/netbeans
+root@mb038:/usr/local/vufind# netbeans
+
+
+
+
+
+root@mb038:/usr/local/vufind# +++
+
+root@mb038:/usr/local/vufind/import#  -- git folder
+
+tail /var/log/apache2/error.log
+
+root@mb038:/usr/local/vufind# php util/cssBuilder.php
+
+http://localhost:8983/solr/#/biblio/query
+
+../themes/tuefind/templates/search/list-authorfacets.phtml
+
+root@mb038:/var/log/apache2# tail error.log
+
+root@mb038:/usr/local/var/log/tuefind# tail vufind.log 
+
+root@mb038:/usr/local/ub_tools/cpp# make data_install
+
+import generator
+
+root@mb038:/usr/local/vufind# fgrep -ri getSearchResult
+
+root@mb038:/usr/local/vufind71/module# fgrep -rli savedlists 
+
+cp     /home/qubvl01/Desktop/marker-purple.png           /usr/local/vufind7/themes/ixtheo2/images/ol/  //copy file
+mv     /home/qubvl01/Desktop/marker-purple.png           /usr/local/vufind7/themes/ixtheo2/images/ol/  //move file
+
+
+cp  /home/qubvl01/Downloads/dig.jpg  /usr/local/vufind7/themes/ixtheo2/images/slider
+
+
+
+root@mb038:/home/qubvl01/IxTheo_Design_Bilder# cp /home/qubvl01/IxTheo_Design_Bilder/theologie_digital_smoll.JPG /usr/local/vufind7/themes/ixtheo2/images
+
+cp  /home/qubvl01/Desktop/security.conf /etc/apache2/conf-available
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+ps aux | grep [имя программы]
+В результате вы увидите ID нужного процесса. Далее используем команду:
+kill [ID процесса]
+--------------------------------------------------------------------------------------------------------------------
+
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+root@mb038:/usr/local/vufind# ./import-marc.sh ../ub_tools/bsz_daten/GesamtTiteldaten-post-pipeline-210730.mrc 
+
+Activate 71
+systemctl stop vufind
+rm /usr/local/vufind
+ln -s /usr/local/vufind71 /usr/local/vufind
+systemctl start vufind
+systemctl restart apache2
+
+Activate 80
+systemctl stop vufind
+rm /usr/local/vufind
+ln -s /usr/local/vufind80 /usr/local/vufind
+systemctl start vufind
+systemctl restart apache2
+
+
+root@mb038:/home/qubvl01/Desktop/go# go run main.go ///////////// go build hello.go
+
+libreoffice - 
+
+//copy files from PTAH 
+
+scp ptah.ub.uni-tuebingen.de:/usr/local/vufind/themes/ixtheo2/templates/content/about_us.phtml /tmp/about_us.phtml   
+
+qubvl01@mb038:/tmp/ixtheo2$ scp ptah.ub.uni-tuebingen.de:/usr/local/vufind/themes/ixtheo2/templates/content/codices.phtml .
+codices.phtml
+
+
+./import-marc.sh ../ub_tools/bsz_daten
+
+grep -R "getRelatedAuthors" /usr/local/vufind
+
+root@mb038:/usr/local/vufind/module# fgrep -ri getmarcrecord
+
+
+
+--------------------------------------------------------------------------------------------
+
+oot@mb038:/usr/local/vufind# mysql
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+root@mb038:/usr/local/vufind# mysql -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 8.0.28-0ubuntu0.20.04.3 (Ubuntu)
+
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use vufind
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> update tuefind_rss_feeds set subsystem_types='relbib,ixtheo' where subsystem_types='relbib';
+Query OK, 39 rows affected (0.01 sec)
+Rows matched: 39  Changed: 39  Warnings: 0
+
+mysql> select * from tuefind_rss_feeds;
+
+mysql> UPDATE user SET tuefind_rights='admin' WHERE id=1;
+
+
+mysql> ^DBye
+./
+
+EXPLAIN tuefind_publications;
+
+SHOW CREATE TABLE tuefind_publications;
+
+
+
+----------------------------------------------
+mkdir -m 700 newdir
+
+
+c++ mycode
+
+qubvl01@mb038:~$ sudo -i eclipse
+
+root@mb038:/usr/local/ub_tools/cpp# make
+root@mb038:/usr/local/ub_tools/cpp# ./aatest 
+Hello: 5MODAndreyMOD
+
+----------------------------------------------
+
+sql vufind updates sql schema
+root@mb038:/usr/local/module/Tuefind/sql
+root@mb038:/usr/local/ub_tools/cpp/data/system_updates/VERSION.vufind.sql
+
+
+
+-------------------- mount --------------------
+
+/usr/local/vufind# cd /mnt
+root@mb038:/mnt# ls
+ZE020110  ZE020150  zram
+root@mb038:/mnt# cd ZE020150/
+root@mb038:/mnt/ZE020150# ls
+root@mb038:/mnt/ZE020150# ls -l
+total 0
+root@mb038:/mnt/ZE020150# vim /etc/fstab 
+root@mb038:/mnt/ZE020150# mount .
+root@mb038:/mnt/ZE020150# ls 
+root@mb038:/mnt/ZE020150# cd ..
+root@mb038:/mnt# cd ZE020110/
+root@mb038:/mnt/ZE020110# ls
+root@mb038:/mnt/ZE020110# cd .
+root@mb038:/mnt/ZE020110# mount .
+root@mb038:/mnt/ZE020110# ls -l
+total 0
+root@mb038:/mnt/ZE020110# cd .
+root@mb038:/mnt/ZE020110# cd ..
+root@mb038:/mnt# cd ZE020150/
+root@mb038:/mnt/ZE020150# ls
+FID-Entwicklung  IT-Abteilung
+
+
+root@mb038:/usr/local/vufind# bsz
+root@mb038:/usr/local/ub_tools/bsz_daten# mv /tmp/GesamtTiteldaten-post-pipeline-220513.mrc .
+ls -l
+root@mb038:/usr/local/ub_tools/bsz_daten# ls -l
+total 9063000
+
+
+---------------------- import data -----------------------------------------------------------
+
+1) Find out the filenames of the current files by logging in on ptah
+ssh qubvl01@ptah.ub.uni-tuebingen.de
+cd /usr/local/ub_tools/bsz_daten
+ls -l
+Look for filenames with the newest dates, e.g. GesamtTiteldaten-post-pipeline-220530.mrc and Normdaten-fully-augmented-220530.mrc
+2) copy files from ptah to your local machine (use a new different bash window on your local machine)
+
+scp -C qubvl01@ptah.ub.uni-tuebingen.de:/usr/local/ub_tools/bsz_daten/GesamtTiteldaten-post-pipeline-220530.mrc /tmp
+scp -C qubvl01@ptah.ub.uni-tuebingen.de:/usr/local/ub_tools/bsz_daten/Normdaten-fully-augmented-220530.mrc /tmp
+
+Now make sure you have local root privileges, e.g. with sudo -Hi, then
+
+mv /tmp/GesamtTiteldaten-post-pipeline-220530.mrc /usr/local/ub_tools/bsz_daten
+mv /tmp/Normdaten-fully-augmented-220530.mrc /usr/local/ub_tools/bsz_daten
+
+Now you have both files on your local machine in the bsz_daten directory. (if you have files with older dates on your local machine, you can remove them)
+
+3) import the files
+
+(I'd recommend importing the authority file first, since it will only run <5 mins and you can start the other one after that, which runs multiple hours)
+
+cd /usr/local/vufind
+./import-marc-auth.sh /usr/local/ub_tools/bsz_daten/Normdaten-fully-augmented-220530.mrc
+./import-marc.sh /usr/local/ub_tools/bsz_daten/GesamtTiteldaten-post-pipeline-220530.mrc
+
+------------------------------------------- cpp --------------------------------------------------------------------------------------------------------
+
+To build & execute the program for the first time:
+
+	`cd /usr/local/ub_tools/cpp/harvest`
+	`make nacjd` (to create the binary program)
+	`touch /tmp/empty.mrc` (to create an empty binary .mrc file we use as dummy input)
+	`./nacjd /tmp/empty.mrc /tmp/nacjd.mrc` (Run the main process, this might take 60 minutes or so)
+	`marc_convert /tmp/nacjd.mrc /tmp/nacjd.xml`(Convert .mrc file to .xml file for debugging)
+
+------------------------------------------- NACJD / C++ => Getting started -----------------------------------------
+
+To build & execute the program for the first time:
+
+`cd /usr/local/ub_tools/cpp/harvest`
+
+`make nacjd` (to create the binary program) "make nacjd && ./nacjd"
+
+`touch /tmp/empty.mrc` (to create an empty binary .mrc file we use as dummy input)
+
+`./nacjd /tmp/empty.mrc /tmp/nacjd.mrc` (Run the main process, this might take 60 minutes or so)
+
+`marc_convert /tmp/nacjd.mrc /tmp/nacjd.xml`(Convert .mrc file to .xml file for debugging)
+
+
+
+
+
+
